@@ -12,5 +12,5 @@ Google Api Documentations. [Click Here](https://developers.google.com/books/docs
 - [readmore](https://pub.dev/packages/readmore): Version-2.2.0
 
 ### App Screenshots
-<img src="images/img1.png" width="250"> <img src="images/img2.png" width="250"> <img src="images/img3.png" width="250"> 
-<img src="images/img4.png" width="250"> <img src="images/img5.png" width="250">
+<img src="images/img1.jpg" width="250"> <img src="images/img2.jpg" width="250"> <img src="images/img3.jpg" width="250"> 
+<img src="images/img4.jpg" width="250"> <img src="images/img5.jpg" width="250">
