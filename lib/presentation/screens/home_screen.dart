@@ -1,4 +1,5 @@
 import 'package:books/app/constants/constants.dart';
+import 'package:books/presentation/screens/books_list.dart';
 import 'package:books/presentation/screens/search_screen.dart';
 import 'package:books/presentation/widgets/books/adventure_books.dart';
 import 'package:flutter/material.dart';
@@ -87,9 +88,18 @@ class _HomeScreenState extends State<HomeScreen> {
                             children: [
                               Text('Most Popular',
                                   style: Theme.of(context).textTheme.headline2),
-                              Text(
-                                "See All",
-                                style: Theme.of(context).textTheme.headline4,
+                              InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) =>
+                                              BookList(name: "Fiction")));
+                                },
+                                child: Text(
+                                  "See All",
+                                  style: Theme.of(context).textTheme.headline4,
+                                ),
                               )
                             ],
                           ),
@@ -114,25 +124,37 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
             ),
-            Headline(category: "Anime"),
+            Headline(
+              category: "Anime",
+              showAll: "Anime",
+            ),
             SizedBox(
               //color: Colors.grey.shade100,
               height: height / 3.4,
               child: const AnimeBooks(),
             ),
-            Headline(category: "Action & adventure"),
+            Headline(
+              category: "Action & Adventure",
+              showAll: "Action & Adventure",
+            ),
             SizedBox(
               //color: Colors.yellow,
               height: height / 3.4,
               child: const AdevntureBooks(),
             ),
-            Headline(category: "Novel"),
+            Headline(
+              category: "Novel",
+              showAll: "Novel",
+            ),
             SizedBox(
               //color: Colors.yellow,
               height: height / 3.4,
               child: const NovelBooks(),
             ),
-            Headline(category: "Horror"),
+            Headline(
+              category: "Horror",
+              showAll: "Horror",
+            ),
             SizedBox(
               //color: Colors.yellow,
               height: height / 3.4,

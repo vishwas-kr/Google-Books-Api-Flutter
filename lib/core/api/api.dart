@@ -4,7 +4,7 @@ class BookApi {
   Future getBooks() async {
     final response = await http.get(
       Uri.parse(
-          "https://www.googleapis.com/books/v1/volumes?q=fiction&maxResults=40"),
+          "https://www.googleapis.com/books/v1/volumes?q=Fiction&maxResults=40"),
       // headers: headers,
     );
 
