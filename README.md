@@ -1,16 +1,16 @@
-# books
+# Books App
+ 
+Book App made in Flutter using Google Books Api. Search your Favourite books here or buy them. 
 
-A new Flutter project.
+Google Api Documentations. [Click Here](https://developers.google.com/books/docs/v1/using)
 
-## Getting Started
+## Libraries & Tools Used.
+- [provider](https://pub.dev/packages/provider/install): Version-6.0.3
+- [google_fonts](https://pub.dev/packages/google_fonts): Version-3.0.1
+- [http](https://pub.dev/packages/http): Version-0.13.4
+- [url_launcher](https://pub.dev/packages/url_launcher): Version-6.1.5
+- [readmore](https://pub.dev/packages/readmore): Version-2.2.0
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### App Screenshots
+<img src="images/img1.jpg" width="250"> <img src="images/img2.jpg" width="250"> <img src="images/img3.jpg" width="250"> 
+<img src="images/img4.jpg" width="250"> <img src="images/img5.jpg" width="250">
